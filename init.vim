@@ -12,7 +12,13 @@ Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'frazrepo/vim-rainbow'
+Plug 'KeitaNakamura/neodark.vim'
 call plug#end()
+
+" Theme
+set termguicolors
+colorscheme neodark
+
 
 " C & Cpp Complier
 autocmd FileType c nnoremap<C-b> :call Cpp_Compiler()<CR> 
